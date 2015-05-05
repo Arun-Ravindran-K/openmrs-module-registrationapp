@@ -190,7 +190,7 @@ ${ ui.includeFragment("uicommons", "validationMessages")}
                                     label: "",
                                     formFieldName: "birthdate",
                                     left: true,
-                                    showEstimated: true,
+                                    showEstimated: false,
                                     estimated: patient.birthdateEstimated,
                                     initialValue: patient.birthdate,
                                     minYear: minAgeYear,
